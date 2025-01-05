@@ -1,10 +1,11 @@
 class Coder {
-
-    secondLang!: string
+    music: string
+    secondLang!: string // we are not inititializing it here, but we will in the constructor
 
     constructor(
         public readonly name: string,
-        public music: string,
+        // public music: string,
+        music: string,
         private age: number,
         protected lang: string = 'Typescript'
     ) {
